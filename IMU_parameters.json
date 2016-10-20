@@ -1,0 +1,56 @@
+{
+  "conversion": {
+    "acceleration": {
+      "k_norm": 32768.0,
+      "2g": 2.0,
+      "4g": 4.0,
+      "8g": 8.0,
+      "16g": 16.0
+    },
+    "angular_velocity": {
+      "k_norm": 32768.0,
+      "250dps": 250.0,
+      "500dps": 500.0,
+      "1000dps": 1000.0,
+      "2000dps": 2000.0
+    },
+    "magnetic_field": {
+      "k_norm": 1.0,
+      "1200dps": 0.007629
+    },
+    "orientation": {
+      "k_norm": 16384.0
+    }
+  },
+  "configuration": {
+    "acceleration": {
+      "address": "52",
+      "2g": "00",
+      "4g": "01",
+      "8g": "02",
+      "16g": "03"
+    },
+    "angular_velocity": {
+      "address": "53",
+      "250dps": "00",
+      "500dps": "01",
+      "1000dps": "02",
+      "2000dps": "03"
+    },
+    "sample_rate": {
+      "address": "80",
+      "200hz": "00",
+      "100hz": "01",
+      "50hz": "02",
+      "33hz": "03",
+      "25hz": "04",
+      "20hz": "05"
+    },
+    "orientation": {
+      "address": "78",
+      "compass": "00",
+      "gyro": "01",
+      "kalman": "02"
+    }
+  }
+}
